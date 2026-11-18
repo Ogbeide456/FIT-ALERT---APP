@@ -1,0 +1,691 @@
+{
+  "source": "Fitalert Curated Plans (Boostcamp, StrongLifts, Bodybuilding.com, Thenx, PHUL, Athlean-X, NTC)",
+  "plans": [
+    {
+      "id": "reddit-ppl",
+      "title": "Push / Pull / Legs (PPL)",
+      "appSource": "Boostcamp & Reddit Fitness",
+      "type": "Hypertrophy & Strength · 6 days/week",
+      "category": "Bodybuilding",
+      "weeks": "12 weeks",
+      "level": "Intermediate",
+      "color": "lavender",
+      "icon": "✦",
+      "image": "/plans/full-body.svg",
+      "description": "The gold-standard science-backed Push/Pull/Legs split popularized by Reddit Fitness and Boostcamp. Balances heavy compound progressions with high-volume isolation for maximal muscle growth and structural symmetry.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Push (Chest, Shoulders, Triceps)",
+          "exercises": [
+            {
+              "id": "bench-press",
+              "name": "Barbell Bench Press",
+              "sets": "4 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Retract scapulae, touch lower chest, press with leg drive."
+            },
+            {
+              "id": "incline-db-press",
+              "name": "Incline Dumbbell Press",
+              "sets": "3 sets",
+              "reps": "8-12 reps",
+              "rest": "90s",
+              "cue": "Set bench at 30 degrees, full stretch at bottom, press without clanking."
+            },
+            {
+              "id": "lateral-raise",
+              "name": "Dumbbell Lateral Raise",
+              "sets": "4 sets",
+              "reps": "12-15 reps",
+              "rest": "60s",
+              "cue": "Slight torso lean, lead with elbows, control the eccentric."
+            },
+            {
+              "id": "assisted-dips",
+              "name": "Machine Assisted Dips",
+              "sets": "3 sets",
+              "reps": "10-12 reps",
+              "rest": "90s",
+              "cue": "Keep torso slightly forward for chest, or upright for triceps."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Pull (Back, Biceps, Rear Delts)",
+          "exercises": [
+            {
+              "id": "deadlift",
+              "name": "Barbell Deadlift",
+              "sets": "3 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Bar over midfoot, engage lats, push floor away through heels."
+            },
+            {
+              "id": "lat-pulldown",
+              "name": "Lat Pulldown",
+              "sets": "3 sets",
+              "reps": "8-12 reps",
+              "rest": "90s",
+              "cue": "Pull elbows down into pockets, squeeze lats at clavicle level."
+            },
+            {
+              "id": "barbell-curl",
+              "name": "Barbell Curl",
+              "sets": "3 sets",
+              "reps": "10-12 reps",
+              "rest": "75s",
+              "cue": "Keep elbows pinned to sides, avoid swinging hips."
+            },
+            {
+              "id": "face-pull",
+              "name": "Cable Face Pull",
+              "sets": "4 sets",
+              "reps": "15 reps",
+              "rest": "60s",
+              "cue": "Pull rope to eyes while externally rotating hands back."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Legs (Quads, Hamstrings, Calves)",
+          "exercises": [
+            {
+              "id": "squat",
+              "name": "Barbell Back Squat",
+              "sets": "4 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Brace core 360 degrees, knees track over toes, break parallel."
+            },
+            {
+              "id": "dumbbell-romanian-deadlift",
+              "name": "Dumbbell Romanian Deadlift",
+              "sets": "3 sets",
+              "reps": "8-10 reps",
+              "rest": "90s",
+              "cue": "Push hips back, keep dumbbells close to shins, feel hamstring stretch."
+            },
+            {
+              "id": "horizontal-leg-press",
+              "name": "Horizontal Leg Press",
+              "sets": "3 sets",
+              "reps": "10-12 reps",
+              "rest": "90s",
+              "cue": "Place feet shoulder-width, avoid letting lower back peel off pad."
+            },
+            {
+              "id": "barbell-calf-raise",
+              "name": "Barbell Calf Raise",
+              "sets": "4 sets",
+              "reps": "15-20 reps",
+              "rest": "60s",
+              "cue": "2-second pause at bottom stretch, explode onto balls of feet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stronglifts-5x5",
+      "title": "StrongLifts 5x5 Strength Foundation",
+      "appSource": "StrongLifts 5x5 App",
+      "type": "Pure Strength · 3 days/week",
+      "category": "Powerlifting",
+      "weeks": "12 weeks",
+      "level": "Beginner to Intermediate",
+      "color": "blue",
+      "icon": "↗",
+      "image": "/plans/strength.svg",
+      "description": "The world famous 5x5 linear progression program from the StrongLifts app. Focuses on three full-body multi-joint barbell lifts per workout, alternating Workout A and Workout B, adding weight every single session.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Workout A (Squat / Bench / Row)",
+          "exercises": [
+            {
+              "id": "squat",
+              "name": "Barbell Back Squat",
+              "sets": "5 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Solid shelf on upper traps, deep breath into belly, squat below parallel."
+            },
+            {
+              "id": "bench-press",
+              "name": "Barbell Bench Press",
+              "sets": "5 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Five points of contact, pinch shoulder blades, press in slight j-curve."
+            },
+            {
+              "id": "behind-the-neck-pull-ups",
+              "name": "Close-Grip Pull-Ups",
+              "sets": "3 sets",
+              "reps": "5-8 reps",
+              "rest": "120s",
+              "cue": "Chest up to the bar, squeeze scapulae down, controlled descent."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Workout B (Squat / Overhead Press / Deadlift)",
+          "exercises": [
+            {
+              "id": "squat",
+              "name": "Barbell Back Squat",
+              "sets": "5 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Keep knees pushed out in line with toes, chest proud."
+            },
+            {
+              "id": "banded-overhead-press",
+              "name": "Barbell Overhead Press",
+              "sets": "5 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Squeeze glutes and abs, press straight past forehead, lock out overhead."
+            },
+            {
+              "id": "deadlift",
+              "name": "Barbell Deadlift",
+              "sets": "1 set",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "One heavy work set. Reset each rep on floor, drag bar up shins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arnold-golden-split",
+      "title": "Arnold Golden Era Split",
+      "appSource": "Bodybuilding.com & Muscle & Strength",
+      "type": "Classic Hypertrophy · 4 days/week",
+      "category": "Bodybuilding",
+      "weeks": "8 weeks",
+      "level": "Intermediate to Advanced",
+      "color": "amber",
+      "icon": "✦",
+      "image": "/plans/full-body.svg",
+      "description": "Inspired by Arnold Schwarzenegger's Golden Era high-volume bodybuilding workouts. Pairs opposing muscle groups (chest & back, shoulders & arms) for tremendous pumps, joint balance, and classic aesthetics.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Chest & Back Superset Day",
+          "exercises": [
+            {
+              "id": "bench-press",
+              "name": "Barbell Bench Press",
+              "sets": "4 sets",
+              "reps": "8-10 reps",
+              "rest": "90s",
+              "cue": "Full chest expansion, flared lats, touch lower pec."
+            },
+            {
+              "id": "lat-pulldown",
+              "name": "Lat Pulldown",
+              "sets": "4 sets",
+              "reps": "10-12 reps",
+              "rest": "90s",
+              "cue": "Wide grip, arch thoracic spine, pull bar to upper chest."
+            },
+            {
+              "id": "incline-db-press",
+              "name": "Incline Dumbbell Press",
+              "sets": "3 sets",
+              "reps": "10-12 reps",
+              "rest": "75s",
+              "cue": "Target clavicular head, deep stretch, contract at peak."
+            },
+            {
+              "id": "behind-the-neck-pull-ups",
+              "name": "Pull-Up",
+              "sets": "3 sets",
+              "reps": "To failure",
+              "rest": "90s",
+              "cue": "Drive elbows toward ribs, full dead hang at bottom."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Shoulders & Arms Blast",
+          "exercises": [
+            {
+              "id": "lateral-raise",
+              "name": "Dumbbell Lateral Raise",
+              "sets": "4 sets",
+              "reps": "12-15 reps",
+              "rest": "60s",
+              "cue": "Keep pinkies slightly elevated, reach hands outward."
+            },
+            {
+              "id": "barbell-curl",
+              "name": "Barbell Curl",
+              "sets": "4 sets",
+              "reps": "8-10 reps",
+              "rest": "75s",
+              "cue": "Supinate wrists hard at top, keep elbows steady."
+            },
+            {
+              "id": "bench-dips",
+              "name": "Bench Dips",
+              "sets": "3 sets",
+              "reps": "12-15 reps",
+              "rest": "60s",
+              "cue": "Lower until 90 degree elbow bend, lockout triceps at top."
+            },
+            {
+              "id": "hammer-curl",
+              "name": "Dumbbell Hammer Curl",
+              "sets": "3 sets",
+              "reps": "10-12 reps",
+              "rest": "60s",
+              "cue": "Neutral palms, targets brachialis and forearms."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Legs & Core Sculpting",
+          "exercises": [
+            {
+              "id": "squat",
+              "name": "Barbell Back Squat",
+              "sets": "4 sets",
+              "reps": "8-10 reps",
+              "rest": "120s",
+              "cue": "Smooth cadence, explosive ascent, keep torso angle rigid."
+            },
+            {
+              "id": "dumbbell-romanian-deadlift",
+              "name": "Dumbbell Romanian Deadlift",
+              "sets": "3 sets",
+              "reps": "10 reps",
+              "rest": "90s",
+              "cue": "Load the hamstrings and glutes, keep neck neutral."
+            },
+            {
+              "id": "russian-twist",
+              "name": "Russian Twist",
+              "sets": "3 sets",
+              "reps": "20 reps",
+              "rest": "45s",
+              "cue": "Elevate feet slightly, rotate through thoracic spine."
+            },
+            {
+              "id": "bicycle-crunch",
+              "name": "Bicycle Crunch",
+              "sets": "3 sets",
+              "reps": "20 reps",
+              "rest": "45s",
+              "cue": "Opposite elbow to opposite knee with slow control."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thenx-calisthenics",
+      "title": "Thenx Calisthenics Mastery",
+      "appSource": "Thenx & Chris Heria",
+      "type": "Bodyweight & Skills · 4 days/week",
+      "category": "Calisthenics",
+      "weeks": "8 weeks",
+      "level": "All Levels",
+      "color": "peach",
+      "icon": "◎",
+      "image": "/plans/calisthenics.svg",
+      "description": "Created in the style of Chris Heria and the Thenx app. Master bodyweight control, relative strength, and gymnastic progressions using pull-up bars, dip bars, and floor work with zero gym membership required.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Upper Body Push & Dip Bars",
+          "exercises": [
+            {
+              "id": "bench-dips",
+              "name": "Dip Bar Dips / Bench Dips",
+              "sets": "4 sets",
+              "reps": "8-12 reps",
+              "rest": "90s",
+              "cue": "Keep shoulders depressed away from ears, descend to 90 degrees."
+            },
+            {
+              "id": "clap-push-ups",
+              "name": "Explosive Push-Up",
+              "sets": "4 sets",
+              "reps": "8-10 reps",
+              "rest": "75s",
+              "cue": "Push off floor with explosive power, absorb softly on return."
+            },
+            {
+              "id": "banded-push-up",
+              "name": "Standard Floor Push-Up",
+              "sets": "3 sets",
+              "reps": "15-20 reps",
+              "rest": "60s",
+              "cue": "Rigid plank line from crown to heels, full chest lockout."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Pull-Up Bar Dominance",
+          "exercises": [
+            {
+              "id": "close-grip-pull-ups",
+              "name": "Close-Grip Pull-Ups",
+              "sets": "4 sets",
+              "reps": "6-10 reps",
+              "rest": "90s",
+              "cue": "Pull chin clearly above bar, avoid kipping with legs."
+            },
+            {
+              "id": "behind-the-neck-pull-ups",
+              "name": "Wide Grip Pull-Up",
+              "sets": "3 sets",
+              "reps": "6-8 reps",
+              "rest": "90s",
+              "cue": "Grip 1.5x shoulder width, drive elbows straight down."
+            },
+            {
+              "id": "bear-plank-hold",
+              "name": "Bear Plank Isometric Hold",
+              "sets": "3 sets",
+              "reps": "45s hold",
+              "rest": "45s",
+              "cue": "Knees hovering 2 inches off floor, brace core intensely."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Legs & Core Explosiveness",
+          "exercises": [
+            {
+              "id": "bodyweight-squat",
+              "name": "Bodyweight Squat",
+              "sets": "4 sets",
+              "reps": "20 reps",
+              "rest": "60s",
+              "cue": "Full depth, knees tracking outward, fast tempo."
+            },
+            {
+              "id": "bulgarian-split-squat",
+              "name": "Bulgarian Split Squat",
+              "sets": "3 sets",
+              "reps": "10 each leg",
+              "rest": "75s",
+              "cue": "Back foot on bench/chair, front knee stays behind toe tip."
+            },
+            {
+              "id": "russian-twist",
+              "name": "Russian Twist",
+              "sets": "3 sets",
+              "reps": "25 reps",
+              "rest": "45s",
+              "cue": "Control the rotation, touch floor on each side."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "athleanx-mobility",
+      "title": "Athlean-X Functional Posture & Reset",
+      "appSource": "ATHLEAN-X (Jeff Cavaliere)",
+      "type": "Mobility & Prehab · 3 days/week",
+      "category": "Mobility Training",
+      "weeks": "6 weeks",
+      "level": "All Levels",
+      "color": "mint",
+      "icon": "↗",
+      "image": "/plans/mobility.svg",
+      "description": "Physiotherapist-designed athletic mobility routine modeled on Athlean-X prehab principles. Fixes desk posture, opens thoracic spine, strengthens external rotators, and builds bulletproof joints.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Shoulder Health & Thoracic Spine",
+          "exercises": [
+            {
+              "id": "face-pull",
+              "name": "Cable Face Pull",
+              "sets": "4 sets",
+              "reps": "15 reps",
+              "rest": "60s",
+              "cue": "Thumbs point back at finish, hold 2-second contraction."
+            },
+            {
+              "id": "banded-overhead-press",
+              "name": "Banded Overhead Press",
+              "sets": "3 sets",
+              "reps": "12 reps",
+              "rest": "60s",
+              "cue": "Focus on smooth scapulohumeral rhythm overhead."
+            },
+            {
+              "id": "bear-plank-hold",
+              "name": "Bear Plank Hold",
+              "sets": "3 sets",
+              "reps": "40s hold",
+              "rest": "45s",
+              "cue": "Push floor away through palms, protract shoulder blades."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Hips, Glutes & Lumbar Decompression",
+          "exercises": [
+            {
+              "id": "goblet-squat",
+              "name": "Goblet Squat",
+              "sets": "3 sets",
+              "reps": "10 reps",
+              "rest": "60s",
+              "cue": "Pry hips open with elbows at bottom of squat."
+            },
+            {
+              "id": "dumbbell-romanian-deadlift",
+              "name": "Dumbbell Romanian Deadlift",
+              "sets": "3 sets",
+              "reps": "10 reps",
+              "rest": "60s",
+              "cue": "Neutral spine, stretch posterior chain without rounding."
+            },
+            {
+              "id": "bodyweight-reverse-lunge",
+              "name": "Bodyweight Reverse Lunge",
+              "sets": "3 sets",
+              "reps": "10 each leg",
+              "rest": "60s",
+              "cue": "Step back softly, 90 degree angle on both knees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ntc-hiit-conditioning",
+      "title": "Nike Training Club HIIT Conditioning",
+      "appSource": "Nike Training Club (NTC)",
+      "type": "Cardio Intervals · 25 min/session",
+      "category": "HIIT",
+      "weeks": "4 weeks",
+      "level": "All Levels",
+      "color": "amber",
+      "icon": "⌁",
+      "image": "/plans/cardio.svg",
+      "description": "High-intensity athletic circuit inspired by Nike Training Club (NTC). Combines ballistic kettlebell swings, burpees, and core intervals to maximize VO2 max and burn calories in short, intense sessions.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Metabolic Fat Burn Circuit",
+          "exercises": [
+            {
+              "id": "kettlebell-swing",
+              "name": "Kettlebell Swing",
+              "sets": "4 sets",
+              "reps": "20 reps",
+              "rest": "45s",
+              "cue": "Snap hips powerfully, kettlebell floats to chest height."
+            },
+            {
+              "id": "burpees",
+              "name": "Burpees",
+              "sets": "4 sets",
+              "reps": "12 reps",
+              "rest": "60s",
+              "cue": "Chest touches floor, pop feet forward, vertical jump with clap."
+            },
+            {
+              "id": "mountain-climbers",
+              "name": "Mountain Climbers",
+              "sets": "4 sets",
+              "reps": "45 sec",
+              "rest": "45s",
+              "cue": "Drive knees alternately toward chest like sprinting in place."
+            },
+            {
+              "id": "jumping-jacks",
+              "name": "Jumping Jacks",
+              "sets": "3 sets",
+              "reps": "60 sec",
+              "rest": "30s",
+              "cue": "Stay light on balls of feet, keep rhythm brisk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phul-power-hypertrophy",
+      "title": "PHUL (Power Hypertrophy Upper Lower)",
+      "appSource": "Muscle & Strength",
+      "type": "Powerbuilding · 4 days/week",
+      "category": "Bodybuilding",
+      "weeks": "12 weeks",
+      "level": "Intermediate",
+      "color": "lavender",
+      "icon": "✦",
+      "image": "/plans/full-body.svg",
+      "description": "The acclaimed Power Hypertrophy Upper Lower system from Muscle & Strength. Dedicates the first two days to raw power and 3-5 rep sets, followed by two hypertrophy days focusing on 8-15 reps for optimal sarcoplasmic hypertrophy.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Upper Power Day",
+          "exercises": [
+            {
+              "id": "bench-press",
+              "name": "Barbell Bench Press",
+              "sets": "4 sets",
+              "reps": "3-5 reps",
+              "rest": "180s",
+              "cue": "Heavy load, stay tight under the bar, drive with feet."
+            },
+            {
+              "id": "lat-pulldown",
+              "name": "Lat Pulldown (Heavy)",
+              "sets": "4 sets",
+              "reps": "6-8 reps",
+              "rest": "120s",
+              "cue": "Explosive pull to chest, 2-second negative."
+            },
+            {
+              "id": "barbell-curl",
+              "name": "Barbell Curl",
+              "sets": "3 sets",
+              "reps": "6-8 reps",
+              "rest": "90s",
+              "cue": "Strict form, maximal bicep tension."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Lower Power Day",
+          "exercises": [
+            {
+              "id": "squat",
+              "name": "Barbell Back Squat",
+              "sets": "4 sets",
+              "reps": "3-5 reps",
+              "rest": "180s",
+              "cue": "Heavy sets, maintain torso stiffness and hit full depth."
+            },
+            {
+              "id": "deadlift",
+              "name": "Barbell Deadlift",
+              "sets": "3 sets",
+              "reps": "5 reps",
+              "rest": "180s",
+              "cue": "Lock out hips forcefully without hyperextending back."
+            },
+            {
+              "id": "barbell-calf-raise",
+              "name": "Barbell Calf Raise",
+              "sets": "4 sets",
+              "reps": "8-10 reps",
+              "rest": "90s",
+              "cue": "Heavy calf overload on balls of feet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gentle-yoga-reset",
+      "title": "Gentle Yoga & Recovery Flow",
+      "appSource": "Yoga with Adriene & Down Dog",
+      "type": "Yoga & De-stress · 3 days/week",
+      "category": "Stretching",
+      "weeks": "4 weeks",
+      "level": "Beginner",
+      "color": "sage",
+      "icon": "◌",
+      "image": "/plans/yoga.svg",
+      "description": "A restorative parasympathetic nervous system recovery protocol inspired by Yoga with Adriene. Calms heart rate, elongates tight hip flexors and hamstrings, and promotes deep recovery between hard lifting days.",
+      "days": [
+        {
+          "day": 1,
+          "name": "Full Body Unwind",
+          "exercises": [
+            {
+              "id": "deep-squat-hold",
+              "name": "Deep Squat Hold (Malasana)",
+              "sets": "3 sets",
+              "reps": "60s hold",
+              "rest": "30s",
+              "cue": "Heels down if possible, hands in prayer, open hips gently."
+            },
+            {
+              "id": "bear-plank-hold",
+              "name": "Cat-Cow Transition Hold",
+              "sets": "3 sets",
+              "reps": "10 slow breaths",
+              "rest": "30s",
+              "cue": "Inhale as belly drops, exhale as spine domes up to ceiling."
+            },
+            {
+              "id": "balance-dome-plank",
+              "name": "Supported Plank Hold",
+              "sets": "3 sets",
+              "reps": "30s hold",
+              "rest": "45s",
+              "cue": "Breathe smoothly through nose, avoid holding breath."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

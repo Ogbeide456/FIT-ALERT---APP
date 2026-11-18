@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#6f62bd"/><stop offset="1" stop-color="#332d63"/></linearGradient>
+    <linearGradient id="body" x2="1"><stop stop-color="#f0c4a4"/><stop offset="1" stop-color="#b77b74"/></linearGradient>
+    <linearGradient id="shirt" x2="1"><stop stop-color="#e0d5ff"/><stop offset="1" stop-color="#9b86f3"/></linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h640v320H0z"/>
+  <circle cx="488" cy="85" r="95" fill="#c6b5ff" opacity=".14"/>
+  <path d="M0 254c112-39 195 28 310-2s205-41 330 0v68H0z" fill="#191b3c" opacity=".46"/>
+  <path d="M69 90h124M52 111h92M535 219h60" stroke="#fff" opacity=".25" stroke-linecap="round" stroke-width="5"/>
+  <ellipse cx="350" cy="274" rx="122" ry="15" fill="#171834" opacity=".45"/>
+  <circle cx="344" cy="89" r="24" fill="url(#body)"/>
+  <path d="M327 113q31-13 48 7l19 66-29 12-29-47-21 45-27-12 25-61z" fill="url(#shirt)"/>
+  <path d="m329 128-58 34-32-11-8-17 11-7 18 11 54-39M378 128l48 35 33-4 9-14-12-9-18 10-42-37" fill="url(#body)"/>
+  <path d="m335 187-25 43 23 32 22-4-7-15-14-15 33-30M365 190l32 32-4 36-21 9-5-13 10-17-40-21" fill="url(#body)"/>
+  <path d="m312 258-8 9 2 7 39 1 4-6-4-7M393 254l11 6 1 8-36 8-6-5 5-9" fill="#e1d7ff"/>
+  <circle cx="338" cy="85" r="2" fill="#392f4e"/>
+  <path d="M304 169h14" stroke="#fff" stroke-width="3" opacity=".35" stroke-linecap="round"/>
+</svg>
